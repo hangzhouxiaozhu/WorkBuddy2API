@@ -1,0 +1,17 @@
+{
+  "name": "workbuddy2api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local WorkBuddy ACP to OpenAI-compatible API gateway with a usage dashboard",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node server.mjs",
+    "login": "node scripts/auth.mjs login",
+    "auth:status": "node scripts/auth.mjs status"
+  }
+}
